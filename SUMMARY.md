@@ -8,3 +8,6 @@
   * [➡ 03. 변수, 데이터타입](undefined/03./README.md)
     * [🤡 03-01. 변수](undefined/03./03-01..md)
     * [👽 03-02. 데이터 타입](undefined/03./03-02..md)
+  * [➡ 04. 연산, 반복문](undefined/04./README.md)
+    * [🍉 04-01. 연산자](undefined/04./04-01..md)
+    * [🍓 04-02. 논리 연산자 Logical operator](undefined/04./04-02.-logical-operator.md)
