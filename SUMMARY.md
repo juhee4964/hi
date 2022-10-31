@@ -11,3 +11,4 @@
   * [➡ 04. 연산, 반복문](undefined/04./README.md)
     * [🍉 04-01. 연산자](undefined/04./04-01..md)
     * [🍓 04-02. 논리 연산자 Logical operator](undefined/04./04-02.-logical-operator.md)
+    * [🍒 04-03. 비교 연산자 Equality](undefined/04./04-03.-equality.md)
