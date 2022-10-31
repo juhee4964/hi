@@ -11,3 +11,11 @@
 {% content-ref url="undefined/03./" %}
 [03.](undefined/03./)
 {% endcontent-ref %}
+
+{% content-ref url="undefined/04./" %}
+[04.](undefined/04./)
+{% endcontent-ref %}
+
+{% content-ref url="undefined/05.-arrow-function/" %}
+[05.-arrow-function](undefined/05.-arrow-function/)
+{% endcontent-ref %}
