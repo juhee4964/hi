@@ -16,6 +16,5 @@
     * [🥝 04-05. 반복문](undefined/04./04-05..md)
   * [➡ 05. Arrow Function? 함수의 선언과 표현](undefined/05.-arrow-function/README.md)
     * [🐭 함수](undefined/05.-arrow-function/undefined.md)
-  * [➡ 06. 클래스와 오브젝트의 차이점(class vs object), 객체지향 언어 클래스 정리](undefined/06.-class-vs-object/README.md)
-    * [🚗 클래스](undefined/06.-class-vs-object/undefined.md)
-    * [🚕 오브젝트](undefined/06.-class-vs-object/undefined-1.md)
+  * [➡ 06. 클래스와 오브젝트의 차이점(class vs object), 객체지향 언어 클래스 정리](undefined/06.-class-vs-object.md)
+  * [➡ 07. 오브젝트란?](undefined/07..md)

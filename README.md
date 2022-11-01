@@ -20,6 +20,6 @@
 [05.-arrow-function](undefined/05.-arrow-function/)
 {% endcontent-ref %}
 
-{% content-ref url="undefined/06.-class-vs-object/" %}
-[06.-class-vs-object](undefined/06.-class-vs-object/)
+{% content-ref url="undefined/06.-class-vs-object.md" %}
+[06.-class-vs-object.md](undefined/06.-class-vs-object.md)
 {% endcontent-ref %}
