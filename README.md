@@ -19,3 +19,7 @@
 {% content-ref url="undefined/05.-arrow-function/" %}
 [05.-arrow-function](undefined/05.-arrow-function/)
 {% endcontent-ref %}
+
+{% content-ref url="undefined/6.-class-vs-object/" %}
+[6.-class-vs-object](undefined/6.-class-vs-object/)
+{% endcontent-ref %}

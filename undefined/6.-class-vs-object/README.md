@@ -2,6 +2,6 @@
 
 
 
-{% content-ref url="../05.-arrow-function/undefined.md" %}
-[undefined.md](../05.-arrow-function/undefined.md)
+{% content-ref url="undefined.md" %}
+[undefined.md](undefined.md)
 {% endcontent-ref %}

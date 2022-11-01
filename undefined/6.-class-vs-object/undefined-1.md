@@ -1,0 +1,190 @@
+# 🚗 오브젝트
+
+****
+
+**💡object** = { key : value }; 집합체
+
+
+
+**💡Literals and properties**
+
+* 선언 방법 2가지
+* `const obj1 = {}; // 'object literal' syntax`
+* `const obj2 = new Object(); // 클래스를 이용해서 만드는 걸 'object constructor' syntax`
+
+```javascript
+/*
+비효율적인 코드
+const name = 'ellie';
+const age = 4;
+print(name, age);
+function print(name, age) {
+    console.log(name);
+    console.log(age);
+    인자가 많아지면 추가해야되는 것들이 많아져서 관리가 힘들어짐
+}
+*/
+
+// 효율적인 코드
+function print(person) {
+    console.log(person.name);
+    console.log(person.age);
+}
+const ellie = { name: 'ellie', age: 4 };// {}를 이용해서 오브젝트 생성 가능
+print(ellie);
+
+
+// with JavaScript magic (dynamically typed language)
+// can add/delete properties later
+
+// 추가 (can add properties later)
+
+ellie.hasJob = true;
+console.log(ellie.hasJob);
+
+// 삭제 (can delete properties later)
+delete ellie.hasJob;
+console.log(ellie.hasJob);
+```
+
+
+
+**💡Computed properties = 계산된 프로퍼티**
+
+* Object 생성 함수 만들기 : Object 생성 시 key 반복적으로 적는 번거로움 해결 가능.
+
+```javascript
+// Key는 스트링 타입으로 해야함
+console.log(ellie.name); // 코딩 순간 key에 해당하는 값을 받아오고 싶을때
+console.log(ellie['name']); // 코딩 순간 key가 정해져 있지 않을 때(정확하게 어떤 키를 사용해야되는지 모를때)
+ellie['hasJob'] = true;
+console.log(ellie.hasjob); // undefined (※ 엘리 님 영상에선 true 찍힘.)
+console.log(ellie['hasJob']); // true
+
+function printValue(obj, key) {
+    // console.log(obj.key); // X
+    console.log(obj[key]); // O
+}
+printValue(ellie, 'name');
+printValue(ellie, 'age');
+```
+
+****
+
+**💡Property value shorthand**
+
+```javascript
+const person1 = { name: 'bob', age: 2 };
+const person2 = { name: 'steve', age: 3 };
+const person3 = { name: 'dave', age: 4 };
+
+const person4 = makePerson('ellie', 30);
+console.log(person4);
+function makePerson(name, age) {
+    return { 
+       // key와 value 동일 시, 축약 가능.    
+        name, // name:  name,
+        age, // age: age,
+    }
+} 
+```
+
+
+
+**💡Constructor function**
+
+* object 생성 함수는 5강에서 설명한 class처럼 Template 역할
+* 위 코드를 더 간결하게 표현하기
+
+```javascript
+const person4 = new Person('ellie', 30);
+console.log(person4);
+function Person(name, age) {
+    // this = {};  // 생략 가능. 주로 생략.
+    this.name = name;
+    this.age = age;    
+    // return this; // 생략 가능. 주로 생략.
+}
+```
+
+
+
+**💡in operator**
+
+* Object 안에 key가 존재하는지 여부 체크
+* Object의 key・value 출력
+
+```javascript
+console.log('name' in ellie); // true
+console.log('age' in ellie); // true
+console.log('random' in ellie); // false
+console.log(ellie.random); // undefined
+```
+
+****
+
+**💡for..in VS  for..of**
+
+```javascript
+// for (key in obj) 모든 키를 받아옴
+for (let key in ellie) {
+    console.log(key);
+}
+
+// for (value of iterable)배열 리스트, 순차적으로 출력
+const array = [1, 2, 4, 5];
+// 무식한 방법
+
+for(let i = 0; i < array.length; i++) {
+    console.log(array[i]);
+}
+// 현명한 방법
+
+for (let value of array) {
+    console.log(value);
+}
+```
+
+
+
+**💡Fun cloning**
+
+```javascript
+// Object.assign(dest, [obj1, obj2, obj3...])
+const user = { name: 'ellie', age: 20 };
+const user2 = user;
+user2.name = 'coder';
+console.log(user); // name: 'coder', age: 20
+
+
+console.clear();
+// old way 예전에
+user2.name = 'ellie';
+const user3 = {};
+for (let key in user) {
+    user3[key] = user[key];
+}
+console.log(user3);
+
+
+console.clear();
+// new way1 
+const user4 = {};
+Object.assign(user4, user);
+console.log(user4);
+
+
+console.clear();
+// new way 2
+const user4 = Object.assign({}, user);
+console.log(user4);
+
+
+console.clear();
+// another example
+const fruit1 = { color: 'red' };
+const fruit2 = { color: 'blue', size: 'big' };
+const mixed = Object.assign({}, fruit1, fruit2); // 뒤의 것이 앞의 것을 덮어씀.
+console.log(mixed.color); // blue
+console.log(mixed.size); // big
+```
