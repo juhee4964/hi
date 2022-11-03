@@ -19,4 +19,4 @@
   * [➡ 06. 클래스와 오브젝트의 차이점(class vs object), 객체지향 언어 클래스 정리](undefined/06.-class-vs-object.md)
   * [➡ 07. 오브젝트란?](undefined/07..md)
 * [🎈 etc.](etc./README.md)
-  * [Page 1](etc./page-1.md)
+  * [😖 for in문, for of문의 차이점](etc./for-in-for-of.md)
