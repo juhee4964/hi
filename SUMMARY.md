@@ -19,5 +19,6 @@
   * [➡ 06. 클래스와 오브젝트의 차이점(class vs object), 객체지향 언어 클래스 정리](undefined/06.-class-vs-object.md)
   * [➡ 07. 오브젝트란?](undefined/07..md)
   * [➡ 08. 배열, 자바스크립트 배열 개념과 APIs 총정리](undefined/08.-apis.md)
+  * [➡ 09. 유용한 10가지 배열 함수들](undefined/09.-10.md)
 * [🎈 etc.](etc./README.md)
   * [😖 for in문, for of문의 차이점](etc./for-in-for-of.md)
