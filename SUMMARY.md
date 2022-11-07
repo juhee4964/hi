@@ -18,5 +18,6 @@
     * [🐭 함수](undefined/05.-arrow-function/undefined.md)
   * [➡ 06. 클래스와 오브젝트의 차이점(class vs object), 객체지향 언어 클래스 정리](undefined/06.-class-vs-object.md)
   * [➡ 07. 오브젝트란?](undefined/07..md)
+  * [➡ 08. 배열, 자바스크립트 배열 개념과 APIs 총정리](undefined/08.-apis.md)
 * [🎈 etc.](etc./README.md)
   * [😖 for in문, for of문의 차이점](etc./for-in-for-of.md)
