@@ -20,5 +20,7 @@
   * [➡ 07. 오브젝트란?](undefined/07..md)
   * [➡ 08. 배열, 자바스크립트 배열 개념과 APIs 총정리](undefined/08.-apis.md)
   * [➡ 09. 유용한 10가지 배열 함수들](undefined/09.-10.md)
+  * [➡ 10. JSON 개념 정리와 활용방법](undefined/10.-json/README.md)
+    * [💒 JSON 이해에 필요한 기본 개념](undefined/10.-json/json.md)
 * [🎈 etc.](etc./README.md)
   * [😖 for in문, for of문의 차이점](etc./for-in-for-of.md)
