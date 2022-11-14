@@ -29,5 +29,6 @@
   * [🚀 자바스크립트 함수 기본편](undefined/undefined.md)
   * [🍄 자바스크립트 기초](undefined/undefined-1/README.md)
     * [🌘 1. 변수 | primitive 타입과 object의 차이점](undefined/undefined-1/1.-or-primitive-object.md)
+    * [🌗 2. 함수 | 함수 정의, 호출, 그리고 콜백함수](undefined/undefined-1/2.-or.md)
 * [🎈 etc.](etc./README.md)
   * [😖 for in문, for of문의 차이점](etc./for-in-for-of.md)
