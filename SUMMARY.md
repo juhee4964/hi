@@ -26,5 +26,6 @@
   * [➡ 11. 비동기 처리의 시작 콜백 이해하기, 콜백 지옥 체험](undefined/11..md)
   * [➡ 12. 프로미스 개념부터 활용까지JavaScript Promise](undefined/12.-javascript-promise.md)
   * [➡ 13. async 와 await](undefined/13.-async-await.md)
+  * [🚀 자바스크립트 함수 기본편](undefined/undefined.md)
 * [🎈 etc.](etc./README.md)
   * [😖 for in문, for of문의 차이점](etc./for-in-for-of.md)
