@@ -27,5 +27,7 @@
   * [➡ 12. 프로미스 개념부터 활용까지JavaScript Promise](undefined/12.-javascript-promise.md)
   * [➡ 13. async 와 await](undefined/13.-async-await.md)
   * [🚀 자바스크립트 함수 기본편](undefined/undefined.md)
+  * [🍄 자바스크립트 기초](undefined/undefined-1/README.md)
+    * [🌘 1. 변수 | primitive 타입과 object의 차이점](undefined/undefined-1/1.-or-primitive-object.md)
 * [🎈 etc.](etc./README.md)
   * [😖 for in문, for of문의 차이점](etc./for-in-for-of.md)
